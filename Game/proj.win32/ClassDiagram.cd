@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ILoginPresenter">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAAgAAAAAA=</HashCode>
+      <FileName>F:\workspace\cocos\mycode\Game\Classes\MVP\ILoginPresenter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ILoginView">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAACAIAAAAAAAA=</HashCode>
+      <FileName>F:\workspace\cocos\mycode\Game\Classes\MVP\ILoginView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginPresenter">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACAAAAAAAAAgAAAQAAAAAAAAAAAEAAAAgAAAAAA=</HashCode>
+      <FileName>F:\workspace\cocos\mycode\Game\Classes\MVP\LoginPresenter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginView">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgQABAAAAAAAAAAAAFAAAAAAAAAAAkIADBCAAABAAAA=</HashCode>
+      <FileName>F:\workspace\cocos\mycode\Game\Classes\MVP\LoginView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserInfo">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAIIAAAAAAAAABBAAAAUAAAAAIA=</HashCode>
+      <FileName>F:\workspace\cocos\mycode\Game\Classes\MVP\UserInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry">
+      <UniqueIdentifier>{1a8984dd-9fae-48b2-9de9-f5010db46371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{bed79c4b-21ac-463d-80e9-a8051bb8451f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{64dd97b7-3c55-42cc-92ef-f38496e1350d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBase">
+      <UniqueIdentifier>{4708f657-cb38-4439-a782-8333b9b1983f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{c7793055-c9af-44c8-88bc-e9896420dc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\android">
+      <UniqueIdentifier>{686fe796-7b45-4fe1-8b9b-5aa8ba0acd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\ios">
+      <UniqueIdentifier>{e30a02b8-e18c-4358-8638-a8b2f597c9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\win32">
+      <UniqueIdentifier>{062e5f63-db42-426a-8ce1-80d7be5e250d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\winphone">
+      <UniqueIdentifier>{e9b3b639-01bc-4b4d-85e0-309999767ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{854c0629-e666-43d6-a498-9eaa9ada3337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{fecc810b-80d6-4252-b66c-6007f53ab22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UIObject">
+      <UniqueIdentifier>{8dc8cb36-36e1-4a8a-b469-60beb4c5ad6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UIControl">
+      <UniqueIdentifier>{af12c33e-7096-446d-b7f3-dbca1e3ef162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{6d730721-a8fe-477a-a3f9-7a06f2d42763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{3e70807a-0e2e-4172-9859-9d3350bdb95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Event">
+      <UniqueIdentifier>{0c2e13d7-fabc-4cdc-ad01-61415d82aeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UIController">
+      <UniqueIdentifier>{c7bfb398-d906-49da-a228-7aa61b4c2cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UIModel">
+      <UniqueIdentifier>{eaa5f885-832a-4a85-bf49-8ca129d97c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\UIView">
+      <UniqueIdentifier>{03bd9f1f-c53f-4609-a18a-425a5846c68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MVP">
+      <UniqueIdentifier>{7e279049-e713-480f-9679-7b49c578e046}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entry\AppDelegate.cpp">
+      <Filter>Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entry\HelloWorldScene.cpp">
+      <Filter>Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\SoundManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataBase\Table.cpp">
+      <Filter>DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\GameTool.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\DatabaseManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\Language.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\GameManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\GValue.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\ResourceManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\PlatformHelper.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\android\AndroidHelper.cpp">
+      <Filter>Platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SDK\SDKHelper.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\UIObjectManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIObject\UIObject.cpp">
+      <Filter>UI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\UIObjectFactory.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIControl\UIRichText.cpp">
+      <Filter>UI\UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Managers\GameEventManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Test\CTestObject.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Event\UIEvent.cpp">
+      <Filter>Common\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Event\IEvent.cpp">
+      <Filter>Common\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Event\GameEvent.cpp">
+      <Filter>Common\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIControl\UIView.cpp">
+      <Filter>UI\UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIView\GameUserView.cpp">
+      <Filter>UI\UIView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIView\UIViewManager.cpp">
+      <Filter>UI\UIView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIController\GameUserHandle.cpp">
+      <Filter>UI\UIController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIModel\GameModelManager.cpp">
+      <Filter>UI\UIModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UIController\GameLogicDispatcher.cpp">
+      <Filter>UI\UIController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MVP\LoginView.cpp">
+      <Filter>MVP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MVP\LoginPresenter.cpp">
+      <Filter>MVP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entry\AppDelegate.h">
+      <Filter>Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entry\HelloWorldScene.h">
+      <Filter>Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GameTypes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GameDefine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GameCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GameTool.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\SoundManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataBase\DataBaseDefine.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\IManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataBase\TableDefine.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataBase\Table.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataBase\TableStructure.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\DatabaseManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\Language.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\GameManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GValue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\ResourceManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\PlatformHelper.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\ManagerConfig.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\android\AndroidHelper.h">
+      <Filter>Platform\android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\ios\IOSHelper.h">
+      <Filter>Platform\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SDK\SDKHelper.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\UIObjectManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIConfig.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIObjectDelegate.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIObject\UIObject.h">
+      <Filter>UI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\UIObjectFactory.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIControl\UIRichText.h">
+      <Filter>UI\UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIControl\UIDefine.h">
+      <Filter>UI\UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Managers\GameEventManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Test\CTestObject.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Event\UIEvent.h">
+      <Filter>Common\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Event\GameEvent.h">
+      <Filter>Common\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Event\ServerEvent.h">
+      <Filter>Common\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Event\IEvent.h">
+      <Filter>Common\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Any.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIControl\UIView.h">
+      <Filter>UI\UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIModel\IModel.h">
+      <Filter>UI\UIModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIView\IView.h">
+      <Filter>UI\UIView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIModel\GameUser.h">
+      <Filter>UI\UIModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIView\GameUserView.h">
+      <Filter>UI\UIView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIView\UIViewManager.h">
+      <Filter>UI\UIView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIController\GameUserHandle.h">
+      <Filter>UI\UIController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIModel\GameModelManager.h">
+      <Filter>UI\UIModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UIController\GameLogicDispatcher.h">
+      <Filter>UI\UIController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MVP\ILoginView.h">
+      <Filter>MVP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MVP\ILoginPresenter.h">
+      <Filter>MVP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MVP\UserInfo.h">
+      <Filter>MVP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MVP\LoginView.h">
+      <Filter>MVP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MVP\LoginPresenter.h">
+      <Filter>MVP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
