@@ -1,0 +1,13 @@
+<Solution>
+  <PropertyGroup Name="mypro" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="GameUserView.csd" Type="Layer" />
+        <Image Name="HelloWorld.png" />
+        <Project Name="LoginView.csd" Type="Layer" />
+        <Project Name="MainScene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
